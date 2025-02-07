@@ -1,4 +1,4 @@
-from chat import ChatService
+from src.chat import ChatService
 
 chat_service = ChatService.create()
 chat_service.dummy() if False else ''
