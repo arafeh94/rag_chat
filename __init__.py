@@ -1,2 +1,2 @@
-from .src.chat import ChatService
-from .src.chat import Chat
+from .rag_chat.chat import ChatService
+from .rag_chat.chat import Chat
