@@ -13,3 +13,6 @@ dependencies = [
     "langchain-core~=0.3.34rc2",
     "langgraph~=0.2.69"
 ]
+
+[tool.setuptools]
+packages = ["rag_chat"]
