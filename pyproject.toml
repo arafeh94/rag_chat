@@ -2,12 +2,14 @@
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
-[tool.setuptools]
-packages = ["rag_chat"]
-
-[tool.setuptools.dependencies]
-langchain-community = "~0.3.16"
-langchain-text-splitters = "~0.3.5"
-langchain-openai = "~0.3.4rc1"
-langchain-core = "~0.3.34rc2"
-langgraph = "~0.2.69"
+[project]
+name = "rag_chat"
+version = "0.1.0"
+description = "A project using LangChain and LangGraph"
+dependencies = [
+    "langchain-community~=0.3.16",
+    "langchain-text-splitters~=0.3.5",
+    "langchain-openai~=0.3.4rc1",
+    "langchain-core~=0.3.34rc2",
+    "langgraph~=0.2.69"
+]
